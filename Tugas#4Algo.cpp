@@ -18,46 +18,56 @@ int main()
 	cout<<"Masukan Pilihan : ";
 	cin>>menu;
 	if(menu==1){
-		cout<<"\nMasukan Nilai\t: ";
-		cin>>a;
+		cout<<"\nPertambahan"<<endl;
 		cout<<"Masukan Nilai\t: ";
-		cin>>b;
-		c=a+b;
-		cout<<"Hasil\t\t: ";
-		cout<<c;
-	}else if(menu==2){
+		cin>>d;
 		cout<<"Masukan Nilai\t: ";
-		cin>>a;
+		cin>>e;
+		f=d+e;
+		cout<<"Hasil dari "<<d<<"+"<<e<<"\t: ";
+		cout<<f;
+	}else
+	if(menu==2){
+		cout<<"\nPengurangan"<<endl;
 		cout<<"Masukan Nilai\t: ";
-		cin>>b;
-		c=a-b;
-		cout<<"Hasil\t\t: ";
-		cout<<c;
-	}else if(menu==3){
+		cin>>d;
 		cout<<"Masukan Nilai\t: ";
-		cin>>a;
+		cin>>e;
+		f=d-e;
+		cout<<"Hasil dari "<<d<<"-"<<e<<"\t: ";
+		cout<<f;
+	}else
+	if(menu==3){
+		cout<<"\nPerkalian"<<endl;
 		cout<<"Masukan Nilai\t: ";
-		cin>>b;
-		c=a*b;
-		cout<<"Hasil\t\t: ";
-		cout<<c;
-	}else if(menu==4){
+		cin>>d;
 		cout<<"Masukan Nilai\t: ";
-		cin>>a;
+		cin>>e;
+		f=d*e;
+		cout<<"Hasil dari "<<d<<"x"<<e<<"\t: ";
+		cout<<f;
+	}else
+	if(menu==4){
+		cout<<"\nPembagian"<<endl;
 		cout<<"Masukan Nilai\t: ";
-		cin>>b;
-		c=a/b;
-		cout<<"Hasil\t\t: ";
-		cout<<c;
-	}else if(menu==5){
+		cin>>d;
+		cout<<"Masukan Nilai\t: ";
+		cin>>e;
+		f=d/e;
+		cout<<"Hasil dari "<<d<<":"<<e<<"\t: ";
+		cout<<f;
+	}else
+	if(menu==5){
+		cout<<"\nSisa Hasil Bagi"<<endl;
 		cout<<"Masukan Nilai\t: ";
 		cin>>a;
 		cout<<"Masukan Nilai\t: ";
 		cin>>b;
 		c=a%b;
-		cout<<"Hasil\t\t: ";
+		cout<<"Sisa dari "<<a<<":"<<b<<"\t: ";
 		cout<<c;
-	}else{
+	}else
+	{
 		cout<<"Menu Tidak Ada";
 	}
 	return false;
